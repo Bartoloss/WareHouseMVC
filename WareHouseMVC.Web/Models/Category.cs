@@ -2,15 +2,11 @@
 
 namespace WareHouseMVC.Web.Models
 {
-    public class Item
+    public class Category
     {
         [DisplayName("Identyfikator")]
         public int Id { get; set; }
         [DisplayName("Nazwa")]
         public string Name { get; set; }
-        [DisplayName("Ilość")]
-        public int Amount { get; set; }
-        [DisplayName("Kategoria")]
-        public string CategoryName { get; set; }
     }
 }
