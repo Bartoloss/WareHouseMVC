@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WareHouseMVC.Application.Interfaces;
 using WareHouseMVC.Application.Services;
-using WareHouseMVC.Infrastructure.Repositories;
+using WareHouseMVC.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
