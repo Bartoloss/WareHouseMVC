@@ -11,11 +11,12 @@ namespace WareHouseMVC.Domain.Model
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public int TypeId { get; set; }
         public char Size { get; set; }  
         public int Amount { get; set; }
         public float Price { get; set; }
-        public int TypeId { get; set; }
-
+        public string Currency { get; set; }
+        
         public virtual Type Type { get; set; }
 
         public ICollection<ProductTag> ProductTags { get; set; }

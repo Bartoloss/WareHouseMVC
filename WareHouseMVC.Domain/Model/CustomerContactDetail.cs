@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WareHouseMVC.Domain.Model
 {
-    public class ContactDetail
+    public class CustomerContactDetail
     {
         public int Id { get; set; }
         public string ContactDetailInformation { get; set; }

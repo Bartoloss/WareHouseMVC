@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WareHouseMVC.Domain.Model
 {
-   public class Address
+   public class CustomerAddress
     {
         public int Id { get; set; }
         public string Street { get; set; }

@@ -14,7 +14,7 @@ namespace WareHouseMVC.Domain.Model
         
         public CustomerContactInformation CustomerContactInformation { get; set; }
 
-        public virtual ICollection<ContactDetail> ContactDetails { get; set; }
-        public virtual ICollection<Address> Addresses { get; set; }
+        public virtual ICollection<CustomerContactDetail> CustomerContactDetails { get; set; }
+        public virtual ICollection<CustomerAddress> CustomerAddresses { get; set; }
     }
 }
