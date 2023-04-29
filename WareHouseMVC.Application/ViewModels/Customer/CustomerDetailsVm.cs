@@ -8,6 +8,7 @@ namespace WareHouseMVC.Application.ViewModels.Customer
 {
     public class CustomerDetailsVm
     {
+
         public int Id { get; set; }
         public string Name { get; set; }
         public string NIP { get; set; }
