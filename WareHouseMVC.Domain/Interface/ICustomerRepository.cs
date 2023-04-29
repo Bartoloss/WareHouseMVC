@@ -9,6 +9,7 @@ namespace WareHouseMVC.Domain.Interface
 {
     public interface ICustomerRepository
     {
+        IQueryable<Customer> GetAllActiveCustomers();
         void DeleteCustomer(int customerId);
 
         int AddCustomer(Customer customer);
